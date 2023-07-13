@@ -1,0 +1,165 @@
+.right {
+
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.nav, .footer {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.main {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 25%;
+    height: 120px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.baner {
+    width: calc(75% - 14px);
+    height: 120px;
+    float: left;
+    border: 1px solid black;
+}
+.leftside {
+    width: 20%;
+    height: 550px;
+    margin-right: 10px;
+    float: left;
+}
+.content {
+    width: 55%;
+    height: 600px;
+    margin-right: 5px;
+    float: left;
+    overflow: auto;
+}
+.rightside {
+    width: calc(25% - 17px);
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+}
+.leftup {
+    width: 100%;
+    height: 225px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.leftdown {
+    width: 100%;
+    height: 225px;
+    border: 1px solid black;
+}
+.contentup {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.contentmiddle {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.contentdown {
+    width: 100%;
+    height: calc(200px - 24px);
+}
+.upleft {
+    width : 50%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 10px
+}
+.upright {
+    width : calc(50% - 14px);
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
+.item {
+    width: calc(33% - 10px);
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin: 5px
+}
+
+.footer { 
+    width : 100%;
+    height: 50px;
+    border: 1px solid black;
+}
+.route {
+    width : 80%;
+    height: 100%;
+    padding-left: 20px;
+    float: left;
+}
+
+.route a {
+    font-size : 20px ;
+    line-height: 2.5; 
+    margin-left: 10px;
+}
+.search {
+    width: calc(20% - 22px);
+    height: 75%;
+    border: 1px solid ;
+    border-radius:20px;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+
+}
+.search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.info {
+    width: calc(20% - 50px);
+    height: 100%;
+    padding-left: 20px;
+    float: left;
+}
+@media only screen and (max-width: 1000px) {
+    .leftside{
+        display: none;
+    }
+    .rightside {
+        width: calc(33%-10px);
+    }
+    .content {
+        width: calc(100% - 30% - 26px);
+    }
+    .item {
+        width: calc(50% - 26px);
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .rightside {
+        display: none;
+    }
+    .content {
+        width: calc(100% - 26px);
+    }
+    .item {
+        width: 100%
+    }
+}
